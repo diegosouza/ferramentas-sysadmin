@@ -37,6 +37,18 @@ iftop -i wlan0 -n
 
 ![saída do iftop](https://raw.githubusercontent.com/diegosouza/ferramentas-sysadmin/master/imagens/iftop.png)
 
+### nethogs
+
+#### Exemplo de utilização:
+
+Análise de tráfego por processo na interface wlan0.
+
+```
+nethogs wlan0
+```
+
+![saída do nethogs](https://raw.githubusercontent.com/diegosouza/ferramentas-sysadmin/master/imagens/nethogs.png)
+
 ### nload
 
 #### Exemplo de Utilização:
