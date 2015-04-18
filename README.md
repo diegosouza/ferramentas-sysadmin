@@ -71,8 +71,5 @@ Informações sobre tempo de execução, porcentagem, taxa de transferência e t
 
 ```
 pv file.log | bzip2 > file.log.bz2
-```
-
-```
 311MiB 0:00:04 [73.3MiB/s] [=============>               ] 50% ETA 0:00:09
 ```
