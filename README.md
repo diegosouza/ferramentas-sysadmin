@@ -60,3 +60,19 @@ nload -u K -U M wlan0
 ```
 
 ![saída do nload](https://raw.githubusercontent.com/diegosouza/ferramentas-sysadmin/master/imagens/nload.png)
+
+## Utilitários
+
+### pv
+
+#### Exemplo de utilização:
+
+Informações sobre tempo de execução, porcentagem, taxa de transferência e tempo estimado para determinado comando que não ofereça essas informações.
+
+```
+pv file.log | bzip2 > file.log.bz2
+```
+
+```
+311MiB 0:00:04 [73.3MiB/s] [=============>               ] 50% ETA 0:00:09
+```
